@@ -1,0 +1,74 @@
+/* Varaiables */
+$fontFamily: 'Source Sans Pro', sans-serif;
+
+.container {
+	min-height: 100vh;
+	padding: 0 0.5rem;
+	width: 800px;
+	margin: 0px auto;
+}
+
+.main {
+	padding: 5rem 0;
+	flex: 1;
+	display: block;
+}
+
+.title .title a:hover,
+.title a:focus,
+.title a:active {
+	text-decoration: underline;
+}
+
+.title {
+	text-align: center;
+	margin: 0;
+	line-height: 1.15;
+	font-size: 3em;
+	margin-bottom: 1em;
+
+	a {
+		color: #0070f3;
+		text-decoration: none;
+	}
+}
+
+.posts {
+	margin-left: 0px;
+	padding-left: 0px;
+	list-style: none;
+
+	li {
+		margin-bottom: 2em;
+	}
+
+	p {
+		&:first-child {
+			margin-bottom: 0.6em;
+		}
+
+		&:last-child {
+			margin-top: 0px;
+		}
+	}
+}
+
+.formTextarea {
+	width: 100%;
+	font-size: 1em;
+	padding: 0.2em;
+	min-height: 4em;
+	font-family: $fontFamily;
+	border: 2px solid #444;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.formButton {
+	background: #374ff9;
+	border-radius: 5px;
+	color: white;
+	border: 0px;
+	padding: 0.6em 1em;
+	font-size: 1em;
+}
